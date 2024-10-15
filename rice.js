@@ -281,7 +281,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (product) {
         // Populate product data into the template
-        document.querySelector('.product-name').textContent = product.name;
+      
         document.querySelector('.product-name-2').textContent = product.name;
         document.querySelector('.product-details').textContent = product.details;
         

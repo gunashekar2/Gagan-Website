@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const products = [
         {
             id: 1,
-            name: "CASHEWS",
+           
             details: "CASHEWS SPECIFICATIONS",
             image: "cashews.jpeg", 
 
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             id: 2,
-            name: "PEANUTS",
+           
             image: "peanuts.jpeg", 
             details: "PEANUTS SPECIFICATIONS",
             para1: "Peanuts are a highly nutritious and concentrated form of food, providing a substantial amount of energy. The peanut kernel has a pleasant taste and flavor and can be eaten raw, roasted, or sometimes salted or sweetened. It also contributes as an important source of invisible fat in the diet, being widely used in a variety of ways.",
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             id: 3,
-            name: "PISTACHIOS",
+           
             details: "PISTACHIOS SPECIFICATIONS",
             para1: "Pistachios are a highly nutritious and concentrated form of food, providing a substantial amount of energy. The pistachio kernel has a pleasant taste and flavor and can be eaten raw, roasted, or sometimes salted or sweetened. It also contributes as an important source of invisible fat in the diet, being widely used in a variety of ways.",
             para2: "The kernel is considered to be of high nutritive quality, and growing conditions or the variety of pistachio may have an influence on kernel composition. The overall composition of the kernel is protein 20%, fat 45%, and carbohydrates 28%. The graded varieties can be Whole Kernels, Splits, and other physical variants. The graded variety Extra No. 1 is widely popular and consumed the most across the world for its affordable prices and high nutritional facts.",
@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             id: 4,
-            name: "ANJEER SEEDS",
+           
             details: "ANJEER SEEDS SPECIFICATIONS",
             image: "anjeer.jpeg", 
             para1: "Anjeer (Fig) Seeds are a highly nutritious and concentrated form of food, providing a substantial amount of energy. The seeds have a pleasant taste and flavor and can be eaten raw, roasted, or sometimes salted or sweetened. They also contribute as an important source of invisible fat in the diet, being widely used in a variety of ways.",
@@ -157,7 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             id: 5,
-            name: "RAISIN",
+            
             details: "RAISIN SPECIFICATIONS",
             image: "raisins.jpeg", 
             para1: "Inspection: SGS or any other agency as per your requirement for Weight and Quality. Packing: Standard in 25 Kg or 50 Kg Jute Bags with HDPE or PP Lining or as per customer requirements.Mode of Payment: TT, LC Delivery: Delivered to the loading port of choice within the given time period from the date of receipt of Confirmed Purchase Order & Receipt Shiva Kumar in many parts of the world. They are rich in protein, fiber, and essential nutrients, making them a valuable part of a balanced diet. Lentils are used in a variety of dishes, including soups, stews, salads, and curries. They are also ground into flour and used in baking and cooking. Lentils are known for their quick cooking time and versatility in culinary applications.",
@@ -209,7 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (product) {
         // Populate product data into the template
-        document.querySelector('.product-name').textContent = product.name;
+       
          document.querySelector('.para1').textContent = product.para1;
          document.querySelector('.para2').textContent = product.para2;
          document.querySelector('.para3').innerHTML = product.para3;
