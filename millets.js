@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 1,
             name: "FINGER MILLET",
-            image: "Finger Millet.jpeg", 
+            image: "image/png", 
             details: "FINGER MILLET SPECIFICATIONS",
             para2:"Comman Names : Ragi, Nachni, Kezhvaragu",
 
@@ -397,7 +397,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (product) {
         // Populate product data into the template
-        document.querySelector('.product-name').textContent = product.name;
+        
          document.querySelector('.para').textContent = product.para;
          document.querySelector('.para2').textContent = product.para2;
        
