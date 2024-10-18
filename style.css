@@ -65,8 +65,11 @@ nav {
 .horizontal-centering ul {
     display: flex;
     list-style-type: none;
-}
 
+}
+.horizontal-centering {
+    margin-left: 250px;
+}
 .horizontal-centering ul li {
     position: relative;
     
